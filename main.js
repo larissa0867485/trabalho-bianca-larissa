@@ -6,15 +6,15 @@ const textoresultado = document.queryselector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você  depara com uma nova tecnologia, um chat que consegue responder toda as duvidas que uma pessoa pode ter, ele tambem gera imagen e audio hipr-realistas. Qual o primeiro pensamento?",
+        enunciado: "Assim que saiu da escola voce  depara com uma nova tecnologia, um chat que consegue responder toda as duvidas que uma pessoa pode ter, ele tambem gera imagen e audio hipr-realistas. Qual o primeiro pensamento?",
         alternativa: [
           {
-            texto: "Isso é assutador!",
-           afirmacao: "afirmção"
+            texto: "Isso e assutador!",
+           afirmacao: "afirmcao"
           },
           {
-            texto: "Isso é maravilhoso!",
-            afirmacao: "afirmação"
+            texto: "Isso e maravilhoso!",
+            afirmacao: "afirmacao"
           }
 
         ]
@@ -24,11 +24,11 @@ const perguntas = [
         alternativa: [
            {
            texto: "Utiliza uma ferramenta de busca na internet que utilizava IA para que ela ajude a encontrar informaçoes relevante para o trabalho e explique numa linguagem que facilite o entendimento.",
-            afiirmacao: "afirmação"
+            afiirmacao: "afirmacao"
            },
            {
             texto: "ecreve o trabalho com base nas converas que teve com colegas, algumas pesquisas na internet e conhecimentos proprios sobre o tema",
-            afirmacao: "afirmação"
+            afirmacao: "afirmacao"
            },
         ]
     },
@@ -37,11 +37,11 @@ const perguntas = [
         alternativas: [
            {
             texto: "defende a ideia de que a IA pode criar nova oportunidades de emprego e melhora habilidades humanas.",
-            afirmacao: "afirmação"
+            afirmacao: "afirmacao"
            },
            {
             texto: "me preoculpo com as pessoas que perderao eu empregos para maquinas e defendam a importancia de proteger os trabalhadores.",
-            afirmacao: "afirmação"
+            afirmacao: "afirmacao"
            }
         ]        
     },
@@ -51,24 +51,24 @@ const perguntas = [
         alternativas: [
             {
             texto: "criar uma imagem utilizando uma plataforma de desing como o paint.",
-            afirmacao:"afirmação"
+            afirmacao:"afirmacao"
             },
             {
             texto: "criar uma imagem utilizando gerador de imagem IA.",
-            afirmacao: "afirmação"
+            afirmacao: "afirmacao"
             }
         ]   
     },
     {
-        enunciado: "voce tem um trabalho em grupo de biologia pra entregar na emana eguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo dicidiu fazer com ajuda do IA. O problema é que o trabalho esta totalmente igual o chat, O que voce faz?",
+        enunciado: "voce tem um trabalho em grupo de biologia pra entregar na emana eguinte, o andamento do trabalho esta um pouco atrasado e uma pessoa do seu grupo dicidiu fazer com ajuda do IA. O problema é que o trabalho esta totalmente igual o chat, O que voce faz?",
         alternativas: [
         {
-            texto: "escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-            afirmacao: "afirmação"
+            texto: "escrever comandos para o chat e uma forma de contribuir com o trabalho, por isso nao e um problema utilizar o texto inteiro.",
+            afirmacao: "afirmacao"
         },
         {
-            texto:"o chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda maquina erra, por iso revisar o trabalho e contribuir com as perspectivas pessoais é essencial",
-            afirmacao: "afirmção"
+            texto:"o chat pode ser uma tecnologia muito avancada, mas e preciso manter a atencao pois toda maquina erra, por iso revisar o trabalho e contribuir com as perspectivas pessoais é essencial",
+            afirmacao: "afirmcao"
         }
     ]
   }
