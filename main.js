@@ -97,14 +97,14 @@ function mostraAltrnativas() {
        caixaAlternativas.appendChild(botaoAltrnativas);
     }  
  }
- function respostaSelecionada(opcaoSelecionada){
+ function respostaSelecionada(opcaoSelecionada) {
     const afirmacoes = opcaoSelecionada.afirmacoes;
     histoiaFinal += afirmacoes + " ";
     atual++;
     mostrapergunta();
  }
 
- function mostraResultado(){
+ function mostraResultado() { 
   caixaPerguntas.textContent = "em2049...";
   textoresultado.textContent = historiaFinal;
   caixaAlternativas.textcontent = "";
